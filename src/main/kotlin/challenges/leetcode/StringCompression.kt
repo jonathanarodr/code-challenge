@@ -1,4 +1,4 @@
-package br.com.jonathan.challenges.leetcode
+package challenges.leetcode
 
 import br.com.jonathan.util.AssertEquals.equalsTo
 
