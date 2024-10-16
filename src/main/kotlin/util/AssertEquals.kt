@@ -7,7 +7,7 @@ private const val FontBold = "\u001B[1m"
 
 object AssertEquals {
 
-    infix fun Any?.equalsTo(expected: Any) {
+    infix fun Any?.equalsTo(expected: Any?) {
         if (this != expected) {
             println("$FontBold$RedColor[✖]$Reset Failure\n")
             error(
