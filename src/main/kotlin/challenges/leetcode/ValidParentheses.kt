@@ -15,7 +15,7 @@ private fun isValidParentheses(s: String): Boolean {
             '(' -> stack.push(')')
             '[' -> stack.push(']')
             '{' -> stack.push('}')
-            else -> {
+            ')', ']', '}' -> {
                 if (stack.isEmpty() || stack.pop() != char) {
                     return false
                 }
@@ -27,7 +27,7 @@ private fun isValidParentheses(s: String): Boolean {
 }
 
 fun main() {
-    val input = "[]([{}])()"
+    val input = "a{b(c)d}e"
 
     val result = isValidParentheses(s = input)
 
