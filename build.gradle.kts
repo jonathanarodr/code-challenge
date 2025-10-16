@@ -1,8 +1,8 @@
 plugins {
-    kotlin("jvm") version "2.0.0"
+    kotlin("jvm") version "2.2.20"
 }
 
-group = "br.com.jonathan"
+group = "br.com.jonathanarodr.br.com.jonathanarodr.challenges"
 version = "1.0-SNAPSHOT"
 
 repositories {
